@@ -99,6 +99,9 @@ You will now define the vertical limits of your analysis:
 
 **ZONAL**: set at the bottom of the selected zone
 
+<img width="932" height="844" alt="Screenshot 2026-04-07 at 11 51 51" src="https://github.com/user-attachments/assets/caf6824b-aafa-48c0-b05a-f9d16174f171" />
+
+
 - Upper exclusion region
 
 **GLOBAL**: set at the cartilage surface (top of sample)
@@ -107,6 +110,9 @@ You will now define the vertical limits of your analysis:
 
 
 **ZONAL**: set at the top of the selected zone
+
+![Screenshot 2026-04-07 at 11 52 42](https://github.com/user-attachments/assets/300e300b-23a8-413a-b80e-ef378b6ac53b)
+
  
 These boundaries ensure tiles are placed only within the region of interest.
 
@@ -131,6 +137,8 @@ Use these images to visually confirm that tile placement has occured only within
 
 <img width="1470" height="841" alt="Screenshot 2026-04-06 at 09 59 01" src="https://github.com/user-attachments/assets/3dcc2f14-75db-40e9-a93e-4f3181131155" />
 
+![Screenshot 2026-04-07 at 11 58 38](https://github.com/user-attachments/assets/578dc446-3bdf-4823-87b8-31fe69046a55)
+
 
 At this stage:
 
@@ -146,16 +154,25 @@ You can also use the ROI Manager to review individual ROIs or adjust their appea
 
 <img width="1470" height="843" alt="Screenshot 2026-04-06 at 10 04 51" src="https://github.com/user-attachments/assets/f79b2175-cac3-4076-9583-4df9d6c62754" />
 
+At this stage for the **ZONAL** th user must remove all overlay from the RGB image and **RE-RUN** the analysis on the sequential zone. Ensuring zonal analysis in the 
+
+**SUPERFICIAL**: YELLOW
+
+**MIDDLE**: CYAN
+
+**DEEP**: GREEN
+
+<img width="1452" height="846" alt="Screenshot 2026-04-07 at 12 38 34" src="https://github.com/user-attachments/assets/8575b36c-8a64-4dcb-958b-195be9e76494" />
 
 
 **8. AUTOMATIC ANALYSIS**
 
 The macro will now:
 
-- Calculate global intensity and optical density
+- Calculate CARTILAGE GLOBAL mean intensity and mean optical density with Standard deviation (i.e. non random ROI placement)
 - Randomly generate ROI "TILES" (75 × 75 px)
 - Apply spacing and exclusion rules
-- Compute OD for each tile
+- Compute OD for each tile as well as a mean of the X amount of ROI.
 
 **9. VIEW & EXPORT RESULTS**
 
