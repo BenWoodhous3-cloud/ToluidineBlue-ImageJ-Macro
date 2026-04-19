@@ -2,6 +2,10 @@
 ---
 # **Quantitative Optical Density Analysis for Cartilage Histology**
 
+**NOTE**
+
+I will publish a video on YouTube in the near future, the video will include a walkthrough of myself using the GLOBAL and ZONAL macro. The URL will be pased into here: ""
+
 **Aim**
 
 This macro provides a standardised and reproducible workflow for quantifying toluidine blue staining in cartilage using optical density (OD). It supports both whole-sample (global) and region-specific (zonal) analysis of histological images.
